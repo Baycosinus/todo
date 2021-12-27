@@ -61,6 +61,6 @@ router.post('/login', accountController.login);
  *            400:
  *               description: Bad request
  */
- router.post('/login', accountController.register);
+ router.post('/register', accountController.register);
 
 module.exports = router;
